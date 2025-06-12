@@ -1,0 +1,415 @@
+@media(max-width: 700px) {
+    body {
+        overflow-x: hidden;
+        background: linear-gradient(#b3caf8, #fed6e3, rgb(106, 174, 106));
+    }
+
+    .logo {
+        position: relative;
+        right: 190px;
+        font-size: 44px;
+        width: 50px;
+    }
+
+    header {
+        width: 240%;
+        height: 20vh;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .img-1 {
+        width: 240%
+    }
+
+    .Explore {
+        width: 90%;
+        left: 80%;
+    }
+
+    .Explore:hover {
+        background-color: rgb(29, 74, 64);
+        color: rgb(255, 255, 255);
+    }
+
+    .login-button {
+        display: none;
+        width: 18vw;
+    }
+
+    .login-button-2 {
+        width: 200px;
+        height: 45px;
+        border: none;
+        border-radius: 10px;
+        position: relative;
+        left: 50px;
+        top: 29px;
+    }
+
+    .login-button-2:hover {
+        background-color: darkgreen;
+        color: white;
+    }
+
+    #icon {
+        display: block;
+        font-size: 50px;
+        position: relative;
+        left: 150px;
+    }
+
+    .content {
+        width: 180%;
+        font-size: 20px;
+    }
+
+    .content-para::after {
+        left: 40vw;
+        width: 70%;
+    }
+
+    .content-heading {
+        font-size: 60px;
+    }
+
+    .content-para {
+        font-size: 30px;
+    }
+
+    .card-container {
+        width: 200%;
+        display: grid;
+        gap: 90px;
+        position: relative;
+        left: 80px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        height: 105%;
+        width: 90%;
+    }
+
+    .read-more {
+        position: relative;
+        left: 115px;
+    }
+
+    .img-2 {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .about-us {
+        width: 100%;
+    }
+
+    .div-2-heading {
+        font-size: 50px;
+        position: relative;
+        left: 50vw;
+    }
+
+    .content-para-2 {
+        font-size: 20px;
+        width: 160%;
+        position: relative;
+        left: 50%;
+    }
+
+    .div-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-3 {
+        width: 200%;
+        height: 120vh;
+        position: relative;
+        left: 70px;
+    }
+
+    .div-2-content {
+        width: 100%;
+        position: relative;
+        left: 50%;
+        padding: 20px;
+    }
+
+    .about-heading {
+        font-size: 30px;
+        font-weight: bolder;
+
+
+    }
+
+    .about-para {
+        font-size: 30px;
+        line-height: 45px;
+        width: 170%;
+        position: relative;
+        /* left: 40%; */
+    }
+
+    .p-a {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .li-2 {
+        font-style: oblique;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+
+    /* menu bar */
+    .menu-bare {
+        display: none;
+    }
+
+
+    li,
+    a {
+        text-decoration: none;
+        list-style: none;
+        color: rgb(247, 242, 242);
+    }
+
+    .nav-link {
+        position: relative;
+        left: 95px;
+        line-height: 52px;
+        font-size: 25px
+    }
+
+    /* ===== Contact Form Responsive ===== */
+    .contact-wrapper {
+        border-radius: 15px;
+        position: relative;
+        left: 40px;
+        top: 60px;
+        width: 800px;
+    }
+
+    .contact-box {
+        max-width: 900px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    /* ===== Footer Responsive ===== */
+    .footer {
+        width: 800px;
+        position: relative;
+        left: 40px;
+        top: 100px;
+        border-radius: 20px;
+    }
+
+    .no {
+        height: 150px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 880px) {
+  body{
+    overflow-x: hidden;
+     background: linear-gradient(#b3caf8, #fed6e3, rgb(106, 174, 106));
+  }
+    header {
+        width: 190%;
+        height: 20vh;
+    }
+    .nav-list {
+        display: none;
+    }
+
+    .img-1 {
+        width: 190%
+    }
+
+    .Explore {
+        /* width: 90%; */
+        left: 179px;
+    }
+
+    .Explore:hover {
+        background-color: rgb(29, 74, 64);
+        color: rgb(255, 255, 255);
+    }
+     .login-button {
+        display: none;
+        width: 18vw;
+    }
+    #icon {
+        display: block;
+        font-size: 50px;
+        position: relative;
+        left: 150px;
+    }
+    .content {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .content-para::after {
+        left: 10vw;
+        top: 200px;
+        width: 80%;
+    }
+
+    .content-heading {
+        position: relative;
+        left: 150px;
+        font-size: 60px;
+    }
+
+    .content-para {
+        font-size: 30px;
+        width: 1000px;
+        position: relative;
+        left: 160px;
+    }
+    .card-container {
+        width: 160%;
+        display: grid;
+        gap: 90px;
+        position: relative;
+        left: 80px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        height: 105%;
+        width: 90%;
+    }
+
+    .read-more {
+        position: relative;
+        left: 185px;
+    }
+
+    .img-2 {
+        width: 100%;
+        height: 40vh;
+    }
+    .about-us {
+        width: 100%;
+    }
+
+    .div-2-heading {
+        font-size: 50px;
+        position: relative;
+        left: 40vw;
+    }
+
+    .content-para-2 {
+        font-size: 20px;
+        width: 120%;
+        position: relative;
+        left: 40%;
+    }
+
+    .div-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-3 {
+        width: 150%;
+        height: 120vh;
+        position: relative;
+        left: 130px;
+    }
+
+    .div-2-content {
+        width: 100%;
+        position: relative;
+        left: 50%;
+        padding: 20px;
+    }
+
+    .about-heading {
+        font-size: 30px;
+        font-weight: bolder;
+
+
+    }
+
+    .about-para {
+        font-size: 30px;
+        line-height: 45px;
+        width: 140%;
+        position: relative;
+       right: 160px;
+    }
+
+    .p-a {
+        font-size: 30px;
+        font-weight: bolder;
+        right: 150px;
+    }
+
+    .li-2 {
+        font-style: oblique;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+
+    /* menu bar */
+    .menu-bare {
+        display: none;
+    }
+
+
+    li,
+    a {
+        text-decoration: none;
+        list-style: none;
+        color: rgb(247, 242, 242);
+    }
+
+    .nav-link {
+        position: relative;
+        left: 95px;
+        line-height: 52px;
+        font-size: 25px
+    }
+
+    /* ===== Contact Form Responsive ===== */
+    .contact-wrapper {
+        border-radius: 15px;
+        position: relative;
+        left: 40px;
+        top: 60px;
+        width: 1200px;
+        height: 600px;
+    }
+
+    .contact-box {
+        max-width: 900px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    /* ===== Footer Responsive ===== */
+    .footer {
+        align-content: center;
+        width: 1200px;
+        height: 400px;
+        position: relative;
+        left: 40px;
+        top: 100px;
+        border-radius: 20px;
+    }
+
+    .no {
+        height: 150px;
+    }
+
+}
